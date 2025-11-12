@@ -3,17 +3,17 @@ compatibility_date = "2023-01-01"
 main = "src/index.ts"
 
 workers_dev = false # INSECURE, DO NOT ENABLE
-route = { pattern = "aster.yukata.dev", custom_domain = true } # CHANGEME
+# route = { pattern = "aster.yukata.dev", custom_domain = true } # CHANGEME
 
 [site]
 bucket = "./assets"
 
 [vars]
-PUBLIC_BUCKET_URL = "https://cdn.yukata.dev" # CHANGEME
-R2_BUCKET_NAME = "kot" # CHANGEME
-CF_ACCOUNT_ID = "afdc9b319dc9eb7543f28d8e7cd900c0" # CHANGEME
+PUBLIC_BUCKET_URL = "https://render.sontrinh.workers.dev" # CHANGEME
+R2_BUCKET_NAME = "yc-bucket" # CHANGEME
+CF_ACCOUNT_ID = "048fe94a60e624a62a828a8735a732eb" # CHANGEME
 
 [[r2_buckets]]
 binding = "R2_BUCKET"
-bucket_name = "kot" # CHANGEME
-preview_bucket_name = "kot" # CHANGEME (optional, for development)
+bucket_name = "yc-bucket" # CHANGEME
+preview_bucket_name = "yc-bucket" # CHANGEME (optional, for development)
