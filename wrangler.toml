@@ -9,7 +9,7 @@ route = { pattern = "a.vna.qzz.io", custom_domain = true } # CHANGEME
 bucket = "./assets"
 
 [vars]
-PUBLIC_BUCKET_URL = "https://render.sontrinh.workers.dev" # CHANGEME
+PUBLIC_BUCKET_URL = "https://r.vna.qzz.io" # CHANGEME
 R2_BUCKET_NAME = "yc-bucket" # CHANGEME
 CF_ACCOUNT_ID = "048fe94a60e624a62a828a8735a732eb" # CHANGEME
 
