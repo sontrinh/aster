@@ -6,7 +6,7 @@ export const generateFilenameWithExtension = (
   contentType: string | null,
   filenameLike: string | null // url pathname or original filename
 ) => {
-  const filename = generateFilename();
+  const filename = filenameLike || generateFilename();
   // derive an extension from the content type
   if (contentType) return filename + "." + mime.getExtension(contentType);
   // fallback to original extension (FIXME: security?)
