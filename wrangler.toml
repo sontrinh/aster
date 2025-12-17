@@ -17,3 +17,10 @@ CF_ACCOUNT_ID = "048fe94a60e624a62a828a8735a732eb" # CHANGEME
 binding = "R2_BUCKET"
 bucket_name = "yc-bucket" # CHANGEME
 preview_bucket_name = "yc-bucket" # CHANGEME (optional, for development)
+
+[observability]
+[observability.logs]
+enabled = true
+head_sampling_rate = 1
+invocation_logs = true
+persist = true
