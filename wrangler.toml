@@ -3,7 +3,7 @@ compatibility_date = "2023-01-01"
 main = "src/index.ts"
 
 workers_dev = false # INSECURE, DO NOT ENABLE
-# route = { pattern = "aster.yukata.dev", custom_domain = true } # CHANGEME
+route = { pattern = "a.vna.qzz.io", custom_domain = true } # CHANGEME
 
 [site]
 bucket = "./assets"
